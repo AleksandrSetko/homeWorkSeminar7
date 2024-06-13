@@ -1,0 +1,15 @@
+/Users/setko/project it/homeWorkSeminar7/bin/Debug/net8.0/homeWorkSeminar7
+/Users/setko/project it/homeWorkSeminar7/bin/Debug/net8.0/homeWorkSeminar7.deps.json
+/Users/setko/project it/homeWorkSeminar7/bin/Debug/net8.0/homeWorkSeminar7.runtimeconfig.json
+/Users/setko/project it/homeWorkSeminar7/bin/Debug/net8.0/homeWorkSeminar7.dll
+/Users/setko/project it/homeWorkSeminar7/bin/Debug/net8.0/homeWorkSeminar7.pdb
+/Users/setko/project it/homeWorkSeminar7/obj/Debug/net8.0/homeWorkSeminar7.GeneratedMSBuildEditorConfig.editorconfig
+/Users/setko/project it/homeWorkSeminar7/obj/Debug/net8.0/homeWorkSeminar7.AssemblyInfoInputs.cache
+/Users/setko/project it/homeWorkSeminar7/obj/Debug/net8.0/homeWorkSeminar7.AssemblyInfo.cs
+/Users/setko/project it/homeWorkSeminar7/obj/Debug/net8.0/homeWorkSeminar7.csproj.CoreCompileInputs.cache
+/Users/setko/project it/homeWorkSeminar7/obj/Debug/net8.0/homeWorkSeminar7.sourcelink.json
+/Users/setko/project it/homeWorkSeminar7/obj/Debug/net8.0/homeWorkSeminar7.dll
+/Users/setko/project it/homeWorkSeminar7/obj/Debug/net8.0/refint/homeWorkSeminar7.dll
+/Users/setko/project it/homeWorkSeminar7/obj/Debug/net8.0/homeWorkSeminar7.pdb
+/Users/setko/project it/homeWorkSeminar7/obj/Debug/net8.0/homeWorkSeminar7.genruntimeconfig.cache
+/Users/setko/project it/homeWorkSeminar7/obj/Debug/net8.0/ref/homeWorkSeminar7.dll
