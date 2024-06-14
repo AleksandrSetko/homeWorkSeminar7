@@ -10,7 +10,7 @@ void Main()
     Console.Write("Введите значение N: ");
     int N = Convert.ToInt32(Console.ReadLine());
 
-    Console.WriteLine($"Натуральные числа от {M} до {N}:");
+    Console.WriteLine($"Натуральные числа от {M} до {N}: ");
     PrintNumbers(M, N);
 }
 
@@ -22,6 +22,9 @@ void PrintNumbers(int current, int limit)
     Console.Write($"{current} ");
     PrintNumbers(current + 1, limit);
 }
+
+
+Console.WriteLine("------------- Задача № 1 -------------\n");
 
 Main();
 
@@ -37,7 +40,7 @@ void MainSecond()
     int n = Convert.ToInt32(Console.ReadLine());
 
     int result = Ackermann(m, n);
-    Console.WriteLine($"Результат функции Аккермана для чисел ({m}, {n}): {result}");
+    Console.WriteLine($"Результат функции Аккермана для чисел ({m}, {n}): {result} ");
 }
 
 int Ackermann(int m, int n)
@@ -56,4 +59,43 @@ int Ackermann(int m, int n)
     }
 }
 
+Console.WriteLine("\n\n------------- Задача № 2 -------------\n");
+
 MainSecond();
+
+
+// Задача № 3 
+// Задайте произвольный массив. Выведете его элементы, начиная с конца. Использовать рекурсию, не использовать циклы.
+
+
+void MainThird()
+{
+    int[] array = new int[5];
+    FillArrayWithRandomNumbers(array);
+    PrintArrayReverse(array, array.Length - 1);
+}
+
+void FillArrayWithRandomNumbers(int[] array)
+{
+    Random random = new Random(); // Создание экземпляра генератора случайных чисел
+    for (int i = 0; i < array.Length; i++)
+    {
+        array[i] = random.Next(1, 100);
+        Console.Write(array[i] + " ");
+    }
+    Console.WriteLine();
+}
+
+void PrintArrayReverse(int[] array, int index)
+{
+    if (index < 0)
+    {
+        return;
+    }
+    Console.Write(array[index] + " ");
+    PrintArrayReverse(array, index - 1);
+}
+
+Console.WriteLine("\n------------- Задача № 3 -------------\n");
+
+MainThird();
