@@ -10,24 +10,30 @@ void Main()
     Console.Write("Введите значение N: ");
     int N = Convert.ToInt32(Console.ReadLine());
 
-    Console.WriteLine($"Натуральные числа от {M} до {N}: ");
+    Console.WriteLine($"Натуральные числа от " + Math.Max(1, M) + " до " + N + ":");
     PrintNumbers(M, N);
 }
 
-void PrintNumbers(int current, int limit)
+void PrintNumbers(int m, int n)
 {
-    if (current > limit)
-        return;
-
-    Console.Write($"{current} ");
-    PrintNumbers(current + 1, limit);
+    if (m <= 0 && n <= 0)
+    {
+        Console.WriteLine("Нет натуральных чисел в промежутке от " + m + " до " + n);
+    }
+    if (m <= 0)
+    {
+        PrintNumbers(1, n);
+    }
+    else if (m <= n)
+    {
+        Console.Write(m + " ");
+        PrintNumbers(m + 1, n);
+    }
 }
-
 
 Console.WriteLine("------------- Задача № 1 -------------\n");
 
 Main();
-
 
 // Решение задачи № 2
 // Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
@@ -63,10 +69,8 @@ Console.WriteLine("\n\n------------- Задача № 2 -------------\n");
 
 MainSecond();
 
-
 // Задача № 3 
 // Задайте произвольный массив. Выведете его элементы, начиная с конца. Использовать рекурсию, не использовать циклы.
-
 
 void MainThird()
 {
