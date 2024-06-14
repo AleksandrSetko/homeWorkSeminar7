@@ -77,7 +77,7 @@ void MainThird()
 
 void FillArrayWithRandomNumbers(int[] array)
 {
-    Random random = new Random(); // Создание экземпляра генератора случайных чисел
+    Random random = new Random();
     for (int i = 0; i < array.Length; i++)
     {
         array[i] = random.Next(1, 100);
